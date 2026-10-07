@@ -58,5 +58,53 @@ section#liste th{
     color: white;
 }
 
+section h1{
+    text-align:center;
+}
+
+section#message{
+    box-sizing:border-box;
+    width   : 80%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+section#message label, section#message select, section#message input
+{
+    display: block;
+    width  : 100%;
+    padding: 0px;
+    margin : 0px;
+    font-family:'Courie New','Courier New', Courier, monospace;
+    color  : #4C5454;
+    font-size: 18px;
+
+} 
+section#message select, section#message input
+{
+    box-sizing: border-box;
+    background-color: #FF715B;
+    border: 1px solid #4C5454;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section#message label,section#message input[type=submit]
+{
+
+margin-top: 30px;
+
+}
+
+
+section#message input[type=submit]
+{
+    background-color: #FF715B;
+}
+
 
 
